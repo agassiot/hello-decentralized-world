@@ -35,10 +35,12 @@ We see "Say Hi: Hello, Decentralized World" is printed to the terminal. Navigate
 
 We can now import one of the test accounts into MetaMask using one of the private keys, and connect it to localhost:
 
+![ethereum-test-balance](https://github.com/agassiot/hello-decentralized-world/assets/61921580/17b80b22-a013-4d88-a689-413b6b9e46c3)
 
 
 Then we run `npx webpack` and spin up a local server. Open a browser, navigate to your page, and witness the end-result:
 
+![contract-in-browser](https://github.com/agassiot/hello-decentralized-world/assets/61921580/97bc21fe-d69f-4737-b180-16552a4eeb2e)
 
 
 ### Use
