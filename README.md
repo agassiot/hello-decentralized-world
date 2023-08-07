@@ -45,13 +45,14 @@ Andrew Gassiot
 
 ### Features
 
-Open the page. Run the Hardhat test. Experience the thrill.
+Deploy the contract. Run the Hardhat test. Experience the thrill.
 
 ### Struggles
 
 Hardhat doesn't play well with Jest so f*** it, guess we are using Chai:
 
-![hello-transaction](https://github.com/agassiot/hello-decentralized-world/assets/61921580/f819fb82-2563-4da5-aad1-0f91d88970f2)
+![hello-world-test](https://github.com/agassiot/hello-decentralized-world/assets/61921580/3db85f4f-387b-4ba1-96ed-7b5e8a4bbb89)
+
 
 
 ### Links
