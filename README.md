@@ -31,6 +31,9 @@ First, you need a "cloud" to deploy your contract on. In the command line, run: 
 You're rich! Now (in a separate terminal window) we run the command: npx hardhat run scripts/deploy-hello.ts --network localhost
 
 We see "Say Hi: Hello, Decentralized World" is printed to the terminal. Navigate back to our local ethereum network, and we see the following:
+![hello-transaction](https://github.com/agassiot/hello-decentralized-world/assets/61921580/3587e51f-f8e2-4a03-853b-f994c2f1d165)
+
+
 
 ### Use
 
@@ -46,7 +49,10 @@ Open the page. Run the Hardhat test. Experience the thrill.
 
 ### Struggles
 
-Hardhat doesn't play well with Jest so f*** it, guess we are using Chai. 
+Hardhat doesn't play well with Jest so f*** it, guess we are using Chai:
+
+![hello-transaction](https://github.com/agassiot/hello-decentralized-world/assets/61921580/f819fb82-2563-4da5-aad1-0f91d88970f2)
+
 
 ### Links
 
