@@ -26,8 +26,18 @@ async function requestAccounts() {
 async function run() {
     if(!await hasAccounts() && !await requestAccounts()) throw new Error("Error in account request");
 
+    const hello = new ethers.Contract(
+        "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+        [
+            "function hello() public pure returns (string memory)"
+        ],
+        new ethers.providers.Web3Provider(getEth())
+    );
 
+    document.body.innerHTML = await hello.hello();
 }
+
+run();
 
 
 

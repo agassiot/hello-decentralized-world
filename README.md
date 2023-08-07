@@ -33,6 +33,12 @@ You're rich! Now (in a separate terminal window) we run the command: npx hardhat
 We see "Say Hi: Hello, Decentralized World" is printed to the terminal. Navigate back to our local ethereum network, and we see the following:
 ![hello-transaction](https://github.com/agassiot/hello-decentralized-world/assets/61921580/3587e51f-f8e2-4a03-853b-f994c2f1d165)
 
+We can now import one of the test accounts into MetaMask using one of the private keys, and connect it to localhost:
+
+
+
+Then we run `npx webpack` and spin up a local server. Open a browser, navigate to your page, and witness the end-result:
+
 
 
 ### Use
